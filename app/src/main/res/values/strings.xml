@@ -1,0 +1,80 @@
+<resources>
+
+    <!-- Main Activity -->
+    <string name="app_name">AI on the Road</string>
+    <string name="title_home">DailyCare</string>
+    <string name="title_checkup">CheckUp</string>
+    <string name="title_videoanalysis">VideoAnalysis</string>
+    <string name="title_healthchecks">HealthChecks</string>
+    <string name="title_video_analysis">VideoAnalysis</string>
+    <string name="lblSlogan">Empower Your Wellness, Anywhere, Anytime!</string>
+    <string name="imgToolBar"></string>
+    <string name="imgLogo" />
+    <string name="imgAvatar" />
+
+    <!-- Home Fragment -->
+    <string name="signin">Sign in</string>
+    <string name="signout">Sign out</string>
+    <string name="signup">Sign up</string>
+    <string name="myAccount">My Account</string>
+
+    <!-- Signing and Signup Fragments -->
+    <string name="firstNamelHint">First name</string>
+    <string name="txtFirstName"></string>
+
+    <string name="lastNamelHint">Last name</string>
+    <string name="txtLastName"></string>
+
+    <string name="phonelHint">Phone</string>
+    <string name="txtPhone"></string>
+
+    <string name="emailHint">E-mail</string>
+    <string name="txtEmail"></string>
+
+    <string name="passwordHint">Password (minimum 04 digits)</string>
+    <string name="txtPassword"></string>
+
+    <string name="confirmPasswordHint">Confirm password</string>
+    <string name="txtConfirmPassword"></string>
+
+    <string name="btnSignin">Sign In</string>
+    <string name="btnRequestSignup">Sign Up</string>
+    <string name="lblAskToSignUp">Don\'t have an account?</string>
+
+    <string name="btnSignup">Sign Up</string>
+
+    <!-- Checkup Fragment -->
+    <string name="btnTakePicture">Take Picture</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btnCapture">Capture</string>
+    <string name="btnAnalize">Analyze</string>
+    <string name="btnSwitchCamera">Switch Camera</string>
+    <string name="switchSavePwd">Save Credentials</string>
+    <string name="labelSmiling">Smiling:</string>
+    <string name="labelDrowsiness">Drowsiness:</string>
+    <string name="labelDate">Date:</string>
+    <string name="labelDiagnostic">Diagnostic:</string>
+    <string name="labelDiagnosticResult">Result</string>
+    <string name="labelDrowsinessResult">Result</string>
+    <string name="labelSmilingResult">Result</string>
+    <string name="labelDateResult">Result</string>
+    <string name="txtCameraMessage">UI Message</string>
+    <string name="txtDailyCareAi"></string>
+    <string name="txtDiagnostic"></string>
+    <string name="txtDiagDetail"></string>
+    <string name="txtHealthChecks">Recent Health Checks</string>
+    <string name="lblResult">Result:</string>
+    <string name="txtResult" />
+    <string name="lblStableHead">Stable Head Position</string>
+    <string name="txtSmiling">Similing</string>
+    <string name="txtBlinking">Regular Blinking</string>
+    <string name="txtDate" />
+    <string name="swtHeadPosition">Stable Head Position</string>
+    <string name="swtBlinking">Regular Blinking</string>
+    <string name="txtCardSmiling">Smiling</string>
+    <string name="btnSave">Save</string>
+    <string name="videoTitle">Video Title</string>
+    <string name="btnLoadVideo">Load Video</string>/>
+
+</resources>

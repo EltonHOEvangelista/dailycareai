@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentAccount"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_white"
+    tools:context=".ui.menu.AccountFragment">
+
+    <ImageView
+        android:id="@+id/imgAccLogo"
+        android:layout_width="242dp"
+        android:layout_height="212dp"
+        android:background="@drawable/image_background"
+        android:contentDescription="@string/imgLogo"
+        android:scaleType="centerCrop"
+        app:layoutDescription="@string/imgLogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/daily_care_logo" />
+
+    <EditText
+        android:id="@+id/txtAccFirstName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/firstNamelHint"
+        android:hint="@string/firstNamelHint"
+        android:inputType="text"
+        android:selectAllOnFocus="true"
+        android:text="@string/txtEmail"
+        android:textColor="@color/navy_blue"
+        android:textColorHint="@color/navy_blue"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgAccLogo" />
+
+    <EditText
+        android:id="@+id/txtAccLastName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:autofillHints="@string/lastNamelHint"
+        android:hint="@string/lastNamelHint"
+        android:inputType="text"
+        android:selectAllOnFocus="true"
+        android:text="@string/txtLastName"
+        android:textColor="@color/navy_blue"
+        android:textColorHint="@color/navy_blue"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAccFirstName" />
+
+    <EditText
+        android:id="@+id/txtAccEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:autofillHints="@string/emailHint"
+        android:hint="@string/emailHint"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="true"
+        android:text="@string/txtEmail"
+        android:textColor="@color/navy_blue"
+        android:textColorHint="@color/navy_blue"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAccLastName" />
+
+    <EditText
+        android:id="@+id/txtAccPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:autofillHints="@string/passwordHint"
+        android:hint="@string/passwordHint"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="true"
+        android:text="@string/txtPassword"
+        android:textColor="@color/navy_blue"
+        android:textColorHint="@color/navy_blue"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAccEmail" />
+
+    <EditText
+        android:id="@+id/txtAccConfirmPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:autofillHints="@string/confirmPasswordHint"
+        android:hint="@string/confirmPasswordHint"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="true"
+        android:text="@string/txtConfirmPassword"
+        android:textColor="@color/navy_blue"
+        android:textColorHint="@color/navy_blue"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAccPassword" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/navy_blue"
+        android:enabled="true"
+        android:paddingLeft="30dp"
+        android:paddingTop="5dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="5dp"
+        android:text="@string/btnSave"
+        android:textAlignment="gravity"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/primary_white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAccConfirmPassword" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

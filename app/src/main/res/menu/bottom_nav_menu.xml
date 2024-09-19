@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_checkup"
+        android:icon="@drawable/ic_camera_24dp"
+        android:title="@string/title_checkup" />
+
+    <item
+        android:id="@+id/navigation_video_analysis"
+        android:icon="@drawable/ic_play_circle_24"
+        android:title="@string/title_videoanalysis" />
+    <item
+        android:id="@+id/navigation_health_checks"
+        android:icon="@drawable/ic_analytics_24"
+        android:title="@string/title_healthchecks" />
+
+</menu>
